@@ -8,6 +8,7 @@
 
 
 // EX 1:
+// added ; to line 13
 function nameQuestion() {
   console.log("Hello, what is your name?");
 }
@@ -16,6 +17,7 @@ nameQuestion()
 
 
 // EX 2:
+//added ; to line 22, removed the space infront of curly bracket on line 24
 function addThreeNums(first, second, third) {
   var sum = first + second + third;
   console.log(sum);
@@ -26,6 +28,7 @@ addThreeNums(4, 2, 7);
 
 
 // EX 3:
+// corrected spelling of function, added space between () and {, moved the closing { to next line
 function makeFreshPesto() {
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
@@ -38,9 +41,10 @@ makeFreshPesto();
 
 
 //  EX 4:
+//moved the opening { up, spaced the first var, deleted space from the second var, move console log up a line up, remove the ., tested code with a call commented out below
 function average(num1, num2) {
   var sum = num1 + num2;
   var avg = sum / 2;
   console.log(`the average is: ${avg}`);
   }
-  average();
+  // average(4, 5);
