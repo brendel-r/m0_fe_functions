@@ -13,7 +13,7 @@ function nameQuestion() {
   console.log("Hello, what is your name?");
 }
 
-nameQuestion()
+nameQuestion();
 
 
 // EX 2:
@@ -46,5 +46,5 @@ function average(num1, num2) {
   var sum = num1 + num2;
   var avg = sum / 2;
   console.log(`the average is: ${avg}`);
-  }
-  // average(4, 5);
+}
+//average(4, 5);
